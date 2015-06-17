@@ -1,4 +1,11 @@
 /**
+ * Module Dependencies
+ */
+
+var alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var base = alphabet.length;
+
+/**
  * Export `ntol`
  */
 
@@ -12,8 +19,6 @@ module.exports = ntol;
  */
 
 function ntol(n) {
-    var alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    var base = alphabet.length;
     var digits = [];
 
     do {
