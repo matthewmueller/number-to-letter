@@ -6,7 +6,7 @@
 ## Installation
 
 ```base
-npm install letter-to-number
+npm install number-to-letter
 ```
 
 ## Usage
